@@ -1,9 +1,13 @@
-import "./App.css";
-
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <header>
+        <div className="head">
+          <h1 className="logo">N&R</h1>
+          <h1>Nurgali & Ramazan</h1>
+          <p>Best fucking shop</p>
+        </div>
+      </header>
     </div>
   );
 }
