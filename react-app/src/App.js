@@ -1,13 +1,11 @@
+import Header from "./components/Header";
+import Welcome from "./components/Welcome";
+
 function App() {
   return (
     <div className="App">
-      <header>
-        <div className="head">
-          <h1 className="logo">N&R</h1>
-          <h1>Nurgali & Ramazan</h1>
-          <p>Best fucking shop</p>
-        </div>
-      </header>
+      <Header />
+      <Welcome />
     </div>
   );
 }
